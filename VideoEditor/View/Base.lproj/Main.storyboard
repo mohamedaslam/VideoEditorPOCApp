@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-228" y="116"/>
+        </scene>
+        <!--Trim VideoVC-->
+        <scene sceneID="DTM-Ol-obN">
+            <objects>
+                <viewController storyboardIdentifier="TrimVideoVC" id="usa-Ja-9fy" customClass="TrimVideoVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="APH-eX-3P0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="IeK-4n-4Zf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YUZ-AA-RQL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UNJ-48-YK8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="115.59220389805098"/>
+        </scene>
+        <!--Crop VideoVC-->
+        <scene sceneID="xQe-8Q-Qvi">
+            <objects>
+                <viewController storyboardIdentifier="CropVideoVC" id="ER7-dk-aGv" customClass="CropVideoVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wj1-pa-7wU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="JPC-mY-IhK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oZ5-om-ate"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Coo-B5-ZA8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1839.2" y="115.59220389805098"/>
+        </scene>
+        <!--Save Crop VideoVC-->
+        <scene sceneID="1t6-fl-PDw">
+            <objects>
+                <viewController storyboardIdentifier="SaveCropVideoVC" id="cAF-Te-izm" customClass="SaveCropVideoVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dhg-k3-ACi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="EyM-mV-hqL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Mo-u8-ry0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2718" y="101"/>
+        </scene>
+    </scenes>
+</document>
