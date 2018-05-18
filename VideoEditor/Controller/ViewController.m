@@ -16,7 +16,7 @@
 #import "Masonry.h"
 #import "TrimVideoVC.h"
 #import "OLCVideoPlayer.h"
-
+#import "MBProgressHUD.h"
 @interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,OLCVideoPlayerDelegate>
 {
     UICollectionView *_collectionView;
@@ -130,6 +130,7 @@
         make.bottom.equalTo(self.view).with.offset(0);
         make.right.equalTo(self.view).with.offset(0);
 }];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 
     self.vidplayer = [[OLCVideoPlayer alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 180)];
 //    self.vidplayer.frame = CGRectMake(0, 0, self.view.frame.size.width, 180);
@@ -311,6 +312,8 @@
     ListCollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ListCollectionViewCell" forIndexPath:indexPath];
     cell.backgroundColor=[UIColor greenColor];
     if(_imagesTHumbnailarray.count>0){
+        [MBProgressHUD hideHUDForView:self.view animated:YES];
+
         cell._imageView.image = [_imagesTHumbnailarray objectAtIndex:indexPath.row];
     }
     return cell;

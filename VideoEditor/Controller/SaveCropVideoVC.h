@@ -12,4 +12,6 @@
 @property(nonatomic,strong)NSURL *getSelectedURl;
 @property(nonatomic,strong)NSURL *getfullSelectedURl;
 
+
+
 @end

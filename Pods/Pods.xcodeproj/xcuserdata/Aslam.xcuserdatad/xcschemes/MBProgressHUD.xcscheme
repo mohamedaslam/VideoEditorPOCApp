@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B48498F1E5016181C7D7D601DAD8DEC6"
-               BlueprintName = "Pods-VideoEditor"
+               BlueprintIdentifier = "586F2DFA9BDCC6675C2546793A69E5CC"
+               BlueprintName = "MBProgressHUD"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-VideoEditor.a">
+               BuildableName = "libMBProgressHUD.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

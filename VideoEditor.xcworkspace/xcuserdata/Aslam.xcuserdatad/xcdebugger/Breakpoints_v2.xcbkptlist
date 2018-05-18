@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoEditor/Controller/CropVideoVC.m"
-            timestampString = "547741742.332215"
+            timestampString = "547747482.510383"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "274"
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VideoEditor/Controller/CropVideoVC.m"
-            timestampString = "547741742.332654"
+            filePath = "VideoEditor/Controller/SaveCropVideoVC.m"
+            timestampString = "547984611.018518"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "373"
-            endingLineNumber = "373"
-            landmarkName = "-backbtnClicked:"
+            startingLineNumber = "351"
+            endingLineNumber = "351"
+            landmarkName = "-mailbtn:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

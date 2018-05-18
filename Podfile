@@ -10,6 +10,7 @@ target 'VideoEditor' do
   pod 'ICGVideoTrimmer'
   pod 'OLCVideoPlayer'
   pod 'LLVideoEditor'
+  pod 'MBProgressHUD'
 target 'VideoEditorTests' do
     inherit! :search_paths
     # Pods for testing
